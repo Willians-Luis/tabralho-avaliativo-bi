@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  trabalho_bi:
+    build: .
+    container_name: database
+    #volumes:
+      #- ./data:/var/lib/mysql
+    #restart: always
+    ports:
+      - "3309:3306"
+    
+    
