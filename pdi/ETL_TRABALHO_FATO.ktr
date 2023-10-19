@@ -1051,7 +1051,7 @@ group by v.id_venda</sql>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\Users\WILLIANS\Desktop\trabalho-business-intelligence\data\csv\comissao_venda.csv</filename>
+    <filename>C:\Users\W\Desktop\tabralho-avaliativo-bi\data\csv\comissao_venda.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
