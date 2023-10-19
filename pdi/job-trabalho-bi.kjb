@@ -4,6 +4,7 @@
   <description/>
   <extended_description/>
   <job_version/>
+  <job_status>0</job_status>
   <directory>/</directory>
   <created_user>-</created_user>
   <created_date>2023/10/17 08:38:48.914</created_date>
@@ -304,18 +305,18 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>128</xloc>
-      <yloc>128</yloc>
+      <xloc>192</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Transformation - DIMENSAO</name>
+      <name>Transformation - DIMENSÕES</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:/Users/W/Desktop/tabralho-avaliativo-bi/pdi/ETL_TRABALHO_DIMENSOES.ktr</filename>
+      <filename>C:/Users/WILLIANS/Desktop/tabralho-avaliativo-bi/pdi/ETL_TRABALHO_DIMENSOES.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -343,8 +344,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>320</xloc>
-      <yloc>128</yloc>
+      <xloc>352</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -354,7 +355,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:/Users/W/Desktop/tabralho-avaliativo-bi/pdi/ETL_TRABALHO_FATO.ktr</filename>
+      <filename>C:/Users/WILLIANS/Desktop/tabralho-avaliativo-bi/pdi/ETL_TRABALHO_FATO.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -382,8 +383,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>512</xloc>
-      <yloc>128</yloc>
+      <xloc>560</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -394,15 +395,15 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>704</xloc>
-      <yloc>128</yloc>
+      <xloc>720</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
   <hops>
     <hop>
       <from>Start</from>
-      <to>Transformation - DIMENSAO</to>
+      <to>Transformation - DIMENSÕES</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -410,7 +411,7 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>Transformation - DIMENSAO</from>
+      <from>Transformation - DIMENSÕES</from>
       <to>Transformation - FATO</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
