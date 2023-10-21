@@ -1,15 +1,16 @@
-Para criar as images e containers dos bancos de dados use:
+<h2>Para criar as images e containers dos bancos de dados use:</h2>
+
     docker-compose up -d
 
-Portas para acessar os bancos:
-    db_loja -> 3308
-    db_dw -> 3309
+<h2>Portas para acessar os bancos:</h2>
+    <p>db_loja -> 3308</p>
+    <p>db_dw -> 3309</p>
     
-usuário e senha:
-    db_loja -> root -> 1234
-    db_dw -> root -> 1234
-
-Automação de ETL no PDI:
-    DIMENSOES -> atualizar diretório do CSV file input
-    FATO -> atualizar diretório do CSV file input
-    JOB -> atualizar diretório das tranformações de DIMENCOES e FATO
+ <h2>usuário e senha:</h2>
+    <p>db_loja -> root -> 1234</p>
+    <p>db_dw -> root -> 1234</p>
+    
+<h2>Automação de ETL no PDI:</h2> 
+    <p>DIMENSOES -> atualizar diretório do CSV file input</p>
+    <p>FATO -> atualizar diretório do CSV file input</p>
+    <p>JOB -> atualizar diretório das tranformações de DIMENSOES e FATO</p>
