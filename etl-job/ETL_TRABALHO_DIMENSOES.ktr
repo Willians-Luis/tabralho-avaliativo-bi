@@ -505,7 +505,7 @@
     <type>MYSQL</type>
     <access>Native</access>
     <database>db_loja_trabalho</database>
-    <port>3309</port>
+    <port>3308</port>
     <username>root</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce108fc0fc8e</password>
     <servername/>
@@ -534,7 +534,7 @@
       </attribute>
       <attribute>
         <code>PORT_NUMBER</code>
-        <attribute>3309</attribute>
+        <attribute>3308</attribute>
       </attribute>
       <attribute>
         <code>PRESERVE_RESERVED_WORD_CASE</code>
@@ -1756,7 +1756,7 @@ FROM db_loja_trabalho.vendedores;
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\Users\WILLIANS\Desktop\tabralho-avaliativo-bi\data\csv\comissao_venda.csv</filename>
+    <filename>C:\Users\WILLIANS\Desktop\tabralho-avaliativo-bi\csv\comissao_venda.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>

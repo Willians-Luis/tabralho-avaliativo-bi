@@ -294,11 +294,11 @@
       <attributes/>
       <start>Y</start>
       <dummy>N</dummy>
-      <repeat>N</repeat>
-      <schedulerType>0</schedulerType>
+      <repeat>Y</repeat>
+      <schedulerType>2</schedulerType>
       <intervalSeconds>0</intervalSeconds>
-      <intervalMinutes>60</intervalMinutes>
-      <hour>12</hour>
+      <intervalMinutes>65</intervalMinutes>
+      <hour>23</hour>
       <minutes>0</minutes>
       <weekDay>1</weekDay>
       <DayOfMonth>1</DayOfMonth>
@@ -316,7 +316,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:/Users/WILLIANS/Desktop/tabralho-avaliativo-bi/pdi/ETL_TRABALHO_DIMENSOES.ktr</filename>
+      <filename>C:/Users/WILLIANS/Desktop/tabralho-avaliativo-bi/etl-job/ETL_TRABALHO_DIMENSOES.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -349,13 +349,25 @@
       <attributes_kjc/>
     </entry>
     <entry>
+      <name>Success</name>
+      <description/>
+      <type>SUCCESS</type>
+      <attributes/>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>720</xloc>
+      <yloc>192</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
       <name>Transformation - FATO</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:/Users/WILLIANS/Desktop/tabralho-avaliativo-bi/pdi/ETL_TRABALHO_FATO.ktr</filename>
+      <filename>C:/Users/WILLIANS/Desktop/tabralho-avaliativo-bi/etl-job/ETL_TRABALHO_FATO.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -383,19 +395,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>560</xloc>
-      <yloc>192</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Success</name>
-      <description/>
-      <type>SUCCESS</type>
-      <attributes/>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>720</xloc>
+      <xloc>544</xloc>
       <yloc>192</yloc>
       <attributes_kjc/>
     </entry>

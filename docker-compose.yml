@@ -1,13 +1,16 @@
 version: '3.8'
 
 services:
-  trabalho_bi:
-    build: .
-    container_name: database
-    #volumes:
-      #- ./data:/var/lib/mysql
-    #restart: always
+  db_loja:
+    build:
+      context: ./db_loja
+    container_name: db_loja
+    ports:
+      - "3308:3306"
+    
+  db_dw:
+    build:
+      context: ./db_dw
+    container_name: db_dw
     ports:
       - "3309:3306"
-    
-    
